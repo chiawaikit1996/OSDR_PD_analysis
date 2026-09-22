@@ -31,11 +31,11 @@ enableWGCNAThreads()
 ###############################################################################
 
 # ---- File paths ----
-setwd("/shared/home/m330498/OSD152")
+setwd("~/OSD152")
 getwd()
-counts_path <- "/shared/home/m330498/OSD152/GLDS-152_array_raw_intensities_GLmicroarray.csv"
-meta_path   <- "/shared/home/m330498/OSD152/OSD152_metadata.csv"
-out_dir_p2  <- "/shared/home/m330498/OSD152/OSD152_WGCNA"   # Phase 2 outputs
+counts_path <- "~/OSD152/GLDS-152_array_raw_intensities_GLmicroarray.csv"
+meta_path   <- "~/OSD152/OSD152_metadata.csv"
+out_dir_p2  <- "~/OSD152/OSD152_WGCNA"   # Phase 2 outputs
 ws_fig <- file.path(out_dir_p2, "figures")
 
 project_name <- "OSD152"
