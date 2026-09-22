@@ -31,11 +31,11 @@ enableWGCNAThreads()
 ###############################################################################
 
 # ---- File paths ----
-setwd("/shared/home/m330498/GSE290333")
+setwd("~/GSE290333")
 getwd()
-counts_path <- "/shared/home/m330498/GSE290333/DGE_output/GSE290333_Sex_Dose_Hr_differential_expression_GLmicroarray.csv"
-meta_path   <- "/shared/home/m330498/GSE290333/GSE290333_metadata.csv"
-out_dir_p2  <- "/shared/home/m330498/GSE290333/GSE290333_WGCNA"   # Phase 2 outputs
+counts_path <- "~/GSE290333/DGE_output/GSE290333_Sex_Dose_Hr_differential_expression_GLmicroarray.csv"
+meta_path   <- "~/GSE290333/GSE290333_metadata.csv"
+out_dir_p2  <- "~/GSE290333/GSE290333_WGCNA"   # Phase 2 outputs
 ws_fig <- file.path(out_dir_p2, "figures")
 
 project_name <- "GSE290333"
