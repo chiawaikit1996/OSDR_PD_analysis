@@ -31,10 +31,10 @@ enableWGCNAThreads()
 ###############################################################################
 
 # ---- File paths ----
-setwd("~/GSE290333")
+setwd("~/OSD157")
 getwd()
-counts_path <- "~/GSE290333/DGE_output/GSE290333_Sex_Dose_Hr_differential_expression_GLmicroarray.csv"
-meta_path   <- "~/OSD157/GSE290333_metadata.csv"
+# counts_path <- "~/GSE290333/DGE_output/GSE290333_Sex_Dose_Hr_differential_expression_GLmicroarray.csv"
+meta_path   <- "~/OSD157/GLDS-157_array_OSD-157_microarray_v0_G4112F_runsheet.csv"
 out_dir_p2  <- "~/m330498/OSD157/OSD157_WGCNA"   # Phase 2 outputs
 ws_fig <- file.path(out_dir_p2, "figures")
 
